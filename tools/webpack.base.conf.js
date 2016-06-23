@@ -22,6 +22,7 @@ module.exports = {
         test: /\.js$/,
         include: [
           // Our app
+          path.resolve(__dirname, '../src/assets/js')
         ],
         loaders: ['babel']
       }

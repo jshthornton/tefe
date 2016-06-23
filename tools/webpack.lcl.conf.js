@@ -17,11 +17,8 @@ entry.unshift(
   'react-hot-loader/patch'
 );
 
-// const _module = _.cloneDeep(webpackConfig.module);
-// _module.loaders[0].loaders.unshift('react-hot');
-
 module.exports = Object.assign({}, webpackConfig, {
-  devtool: 'source-map',
+  devtool: 'eval',
   entry: entry,
   plugins: plugins,
   //module: _module
