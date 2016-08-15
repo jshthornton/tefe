@@ -1,15 +1,15 @@
 import React, { PropTypes } from 'react';
 
-const render = (props) => {
+const PagesIndexPage = (props) => {
   return (
-    <div className="scene scene--pages-index">
+    <div className="scene pages-index-scene">
     </div>
   );
 };
 
-render.displayName = 'Index';
-render.propTypes = {
+PagesIndexPage.displayName = 'PagesIndexPage';
+PagesIndexPage.propTypes = {
 
 };
 
-export default render;
+export default PagesIndexPage;
